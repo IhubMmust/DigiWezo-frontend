@@ -2,8 +2,8 @@ import heroImage from "../../assets/Devices-cuate1.png";
 
 function Hero() {
   return (
-    <main className="w-screen lg:h-screen mainbg flex-col flex lg:flex-row gap-6 px-6 py-6 justify-center items-center pt-[320px] lg:pt-[200px]">
-      <div className="lg:pt-0  space-y-6 pt-[320px]">
+    <main className="w-screen lg:h-screen mainbg flex-col flex lg:flex-row gap-6 px-6 py-6 justify-center items-center ">
+      <div className="lg:pt-0  space-y-6 pt-[100px]">
         <h1 className="text-3xl lg:text-4xl font-extrabold">
           <span>Smart</span> School Management,
           <br /> <span>Simplified!</span>

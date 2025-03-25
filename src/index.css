@@ -10,6 +10,18 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
+.footerbg{
+ background: url("./assets/footer.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.testimonialbg{
+  background: url("./assets/testimonialcurve.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
 
 /* @media screen and (max-width: 768px) {
   .mainbg {
