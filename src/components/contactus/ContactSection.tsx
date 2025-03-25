@@ -1,4 +1,10 @@
-import React, { useState, ChangeEvent, FormEvent } from "react";
+import { useState, ChangeEvent, FormEvent } from "react";
+import { IoLocation } from "react-icons/io5";
+import { FaPhone } from "react-icons/fa";
+import { MdEmail } from "react-icons/md";
+import { FaFacebook } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
 
 interface FormData {
   name: string;
@@ -87,15 +93,15 @@ function ContactSection() {
   const items = [
     {
       desc: "Mulembe House 2nd floor, P.O Box 139-50100, Kakamega, Kenya",
-      icon: "IconName",
+      icon: <IoLocation className="text-[#fdbf05] text-2xl" />,
     },
     {
       desc: "+254796654709",
-      icon: "IconName",
+      icon: <FaPhone className="text-[#fdbf05] text-2xl " />,
     },
     {
       desc: "info@digiwezo.co.ke",
-      icon: "IconName",
+      icon: <MdEmail className="text-[#fdbf05] text-2xl " />,
     },
   ];
   return (
@@ -112,7 +118,9 @@ function ContactSection() {
         <div>
           {items.map((item, index) => (
             <div key={index} className="flex items-center gap-4 my-3">
-              <div className="w-10 h-10 bg-orange-300 flex items-center justify-center"></div>
+              <div className="w-10 h-10  flex items-center justify-center">
+                {item.icon}
+              </div>
               <p className="text-sm text-start">{item.desc}</p>
             </div>
           ))}
@@ -122,9 +130,17 @@ function ContactSection() {
           <h3>Socials</h3>
 
           <div className="flex items-center gap-4 my-3">
-            <div className="w-10 h-10 bg-orange-300 flex items-center justify-center"></div>
-            <div className="w-10 h-10 bg-orange-300 flex items-center justify-center"></div>
-            <div className="w-10 h-10 bg-orange-300 flex items-center justify-center"></div>
+            <div className="w-10 h-10  flex items-center justify-center">
+              {" "}
+              <FaFacebook className="text-[#fdbf05] text-2xl" />
+            </div>
+            <div className="w-10 h-10  flex items-center justify-center">
+              {" "}
+              <FaInstagram className="text-[#fdbf05] text-2xl" />
+            </div>
+            <div className="w-10 h-10  flex items-center justify-center">
+              <FaXTwitter className="text-[#fdbf05] text-2xl" />
+            </div>
           </div>
         </div>
       </div>
@@ -139,7 +155,7 @@ function ContactSection() {
               placeholder="name"
               value={formData.name}
               onChange={handleChange}
-              className={`mt-1 block w-full rounded-md text-gray-700 shadow-sm py-2 px-1 placeholder:text-gray-500  ${
+              className={`mt-1 block w-full rounded-md text-gray-700 shadow-sm py-2 px-1 placeholder:text-gray-500 border  ${
                 errors.name ? "border-red-500" : "border-blue-300"
               } focus:border-blue-500 focus:ring-blue-500`}
             />
