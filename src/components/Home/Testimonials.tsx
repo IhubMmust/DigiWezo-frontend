@@ -47,7 +47,7 @@ interface TestimonialCardProps {
 
 function TestimonialCard({ text, name, role, image }: TestimonialCardProps) {
   return (
-    <div className="flex-1 h-[350px] w-[300px] bg-white rounded-2xl flex flex-col justify-between items-center p-4 shadow-lg">
+    <div className="flex-1 h-[350px] w-[300px] bg-white rounded-2xl flex flex-col justify-between items-center shadow-lg">
       <div className="text-center">
         <p className="text-black font-semibold p-2">
           <img src={sl} className="inline-block w-[15px] mr-2" />
@@ -56,7 +56,7 @@ function TestimonialCard({ text, name, role, image }: TestimonialCardProps) {
         </p>
       </div>
       <div className="w-full testimonialbg h-[240px] text-black flex flex-col rounded-2xl justify-end items-center pb-2">
-        <img src={image} alt={name} className="mb-14 w-16 h-16 rounded-full" />
+        <img src={image} alt={name} className="mb-16 w-16 h-16 rounded-full" />
         <p className="font-bold">{name}</p>
         <p className="font-semibold">{role}</p>
       </div>
