@@ -39,7 +39,7 @@ function Header() {
         {/* mobile navbar */}
 
         <nav
-          className={`lg:hidden w-[55%] bg-[#FFC004] h-[100vh] top-[80px] fixed left-0 z-[9999] flex  justify-start items-center  transition-all duration-[6000] ease-in-out ${
+          className={`lg:hidden w-[75%] bg-[#FFC004] h-[100vh] top-[80px] fixed left-0 z-[9999] flex  justify-start items-center  transition-all duration-[6000] ease-in-out ${
             isNavBarOpen ? "left-0" : "left-[-100%]"
           }`}
         >

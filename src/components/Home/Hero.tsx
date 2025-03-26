@@ -1,4 +1,4 @@
-import heroImage from "../../assets/Devices-cuate1.png";
+import heroImage from "../../assets/webp/Devices-cuate1.webp";
 import { HashLink } from "react-router-hash-link";
 import { motion } from "framer-motion";
 function Hero() {

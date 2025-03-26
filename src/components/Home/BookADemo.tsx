@@ -1,4 +1,4 @@
-import DemoImage from "../../assets/DemoImage.png";
+import DemoImage from "../../assets/webp/DemoImage.webp";
 
 function BookADemo() {
   return (
@@ -50,7 +50,7 @@ function BookADemo() {
           <div className=" bg-white rounded-lg">
             <input
               type="date"
-              className=" outline-0 p-2 rounded-lg text-black"
+              className=" outline-0 p-2 rounded-lg text-black placeholder:text-black"
               placeholder="Prefered Date..."
             />
           </div>
