@@ -2,7 +2,7 @@ import DemoImage from "../../assets/DemoImage.png";
 
 function BookADemo() {
   return (
-    <div className="w-screen lg:h-screen mainbg flex-col lg:flex-row flex  gap-6 px-6 py-3 justify-center items-center mt-[30px]">
+    <div className="w-screen lg:h-screen mainbg flex-col lg:flex-row flex  gap-6 px-6 py-3 justify-center items-center mt-[30px]" id="demo">
       <div className=" lg:pt-0  space-y-6 pt-[100px] flex flex-col">
         <h2 className="lg:text-left lg:self-start lg:px-8 text-2xl font-bold">
           Book Your Free Demo
