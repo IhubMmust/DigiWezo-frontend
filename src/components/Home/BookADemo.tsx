@@ -1,8 +1,8 @@
-import DemoImage from "../../assets/DemoImage.png";
+import DemoImage from "../../assets/webp/DemoImage.webp";
 
 function BookADemo() {
   return (
-    <div className="w-screen lg:h-screen mainbg flex-col lg:flex-row flex  gap-6 px-6 py-3 justify-center items-center mt-[30px]">
+    <div className="w-screen lg:h-screen mainbg flex-col lg:flex-row flex  gap-6 px-6 py-3 justify-center items-center mt-[30px]" id="demo">
       <div className=" lg:pt-0  space-y-6 pt-[100px] flex flex-col">
         <h2 className="lg:text-left lg:self-start lg:px-8 text-2xl font-bold">
           Book Your Free Demo
@@ -50,7 +50,7 @@ function BookADemo() {
           <div className=" bg-white rounded-lg">
             <input
               type="date"
-              className=" outline-0 p-2 rounded-lg text-black"
+              className=" outline-0 p-2 rounded-lg text-black placeholder:text-black"
               placeholder="Prefered Date..."
             />
           </div>

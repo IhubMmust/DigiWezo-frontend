@@ -5,19 +5,19 @@ body {
 }
 
 .mainbg {
-  background-image: url("./assets/HeroSection.png");
+  background-image: url("./assets/webp/HeroSection.webp");
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
 }
-.footerbg{
- background: url("./assets/footer.png");
+.footerbg {
+  background: url("./assets/webp/footer.webp");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
-.testimonialbg{
-  background: url("./assets/testimonialcurve.png");
+.testimonialbg {
+  background: url("./assets/webp/testimonialcurve.webp");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -28,3 +28,21 @@ body {
     background-size: cover;
   }
 } */
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbary-button {
+  background: #000;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  height: 10px;
+  background: #ffc004;
+}
+#02ccfe,
+#0fa958 ::-webkit-scrollbar-track {
+  background: #aaa;
+}

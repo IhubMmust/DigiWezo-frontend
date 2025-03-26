@@ -6,7 +6,7 @@ function Team() {
         <p className="text-2xl md:text-5xl font-bold  text-[#007BFF]">Meet the Team.</p>
         <div className="w-full flex flex-col md:flex-row gap-10 items-center justify-between mt-10">
             <div className="w-full md:w-1/2">
-                <img src="/images/about.png" alt="team" className="w-full shadow-md rounded-md" />
+                <img src="/images/about.webp" alt="team" className="w-full shadow-md rounded-md" />
             </div>
             <div className="w-full md:w-1/2">
                 <p className="text-lg md:text-xl leading-relaxed">
