@@ -30,7 +30,7 @@ function Header() {
           <ul className="flex justify-end items-center h-full">
             <li className="text-[#3EB0FD] gap-14 flex items-center text-xl font-weight-700">
               <a href="/about">About Us</a>
-              <a href="#services">Services</a>
+              <a href="/services">Services</a>
               <a href="#pricing">Pricing</a>
               <a href="/contact">Contact Us</a>
             </li>
@@ -46,7 +46,7 @@ function Header() {
           <ul className="lg:hidden flex justify-center gap-4 items-start mt-[200px] h-full ml-[40px]">
             <li className="text-white gap-8 flex text-xl font-weight-700 flex-col text-left">
               <a href="/about">About Us</a>
-              <a href="#services">Services</a>
+              <a href="/services">Services</a>
               <a href="#pricing">Pricing</a>
               <a href="/contact">Contact Us</a>
             </li>

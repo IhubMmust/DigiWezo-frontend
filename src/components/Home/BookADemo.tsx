@@ -14,14 +14,14 @@ function BookADemo() {
           <div className=" bg-white rounded-lg">
             <input
               type="text"
-              className=" outline-0 p-2 rounded-lg text-black"
+              className=" outline-0 p-2 rounded-lg text-black w-full"
               placeholder="Name..."
             />
           </div>
           <div className=" bg-white rounded-lg">
             <input
               type="email"
-              className=" outline-0 p-2 rounded-lg text-black"
+              className=" outline-0 p-2 rounded-lg text-black w-full"
               placeholder="Email..."
             />
           </div>
@@ -29,28 +29,28 @@ function BookADemo() {
           <div className=" bg-white rounded-lg">
             <input
               type="tel"
-              className=" outline-0 p-2 rounded-lg text-black"
+              className=" outline-0 p-2 rounded-lg text-black w-full"
               placeholder="Phone Number..."
             />
           </div>
           <div className=" bg-white rounded-lg">
             <input
               type="text"
-              className=" outline-0 p-2 rounded-lg text-black"
+              className=" outline-0 p-2 rounded-lg text-black w-full"
               placeholder="School..."
             />
           </div>
           <div className=" bg-white rounded-lg">
             <input
               type="text"
-              className=" outline-0 p-2 rounded-lg text-black"
+              className=" outline-0 p-2 rounded-lg text-black w-full"
               placeholder="Role (Admin, Teacher, Parent etc)..."
             />
           </div>
           <div className=" bg-white rounded-lg">
             <input
               type="date"
-              className=" outline-0 p-2 rounded-lg text-black placeholder:text-black"
+              className=" outline-0 p-2 rounded-lg text-black placeholder:text-black w-full"
               placeholder="Prefered Date..."
             />
           </div>
