@@ -7,7 +7,7 @@ import { HashLink } from "react-router-hash-link";
 function Footer() {
   return (
     <section className="w-screen footerbg  mt-[30px]">
-      <footer className="bg text-body py-8 relative pt-[70px] lg:pt-24">
+      <footer className="bg text-body py-8 relative pt-[70px] lg:pt-24 text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="w-full grid grid-cols-2 lg:grid-cols-5 gap-8 lg:gap-2 pt-4">
             <div>

@@ -1,7 +1,7 @@
+import Hero from "@/components/contact/Hero";
 import Footer from "../components/common/Footer";
 import Header from "../components/common/Header";
 import ContactSection from "../components/contactus/ContactSection";
-import Hero from "../components/contactus/Hero";
 
 function ContactPage() {
   return (
